@@ -52,7 +52,7 @@
           launch deals.
         </p>
 
-        <form action="#" method="post">
+        <form action="/" method="post">
           <label for="email">Email</label>
           <input
             type="email"
@@ -62,10 +62,14 @@
             required
           />
 
-          <button id="submit">
-            <img src="images/icon-arrow.svg" alt="" />
+          <button onclick="checkEmail(event)" id="submit">
+            <img
+              src="images/icon-arrow.svg"
+              alt="arrow icon on submit button"
+            />
           </button>
         </form>
+        <div id="messages" class="messages"></div>
       </div>
     </main>
     <footer>
@@ -79,5 +83,7 @@
         >.
       </p>
     </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>

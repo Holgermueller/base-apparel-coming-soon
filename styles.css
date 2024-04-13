@@ -95,6 +95,10 @@ form button img {
   margin: auto;
 }
 
+.messages {
+  text-align: center;
+}
+
 footer {
   width: 100%;
   position: relative;
