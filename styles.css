@@ -182,7 +182,6 @@ footer {
 
   form button:hover {
     cursor: pointer;
-
     z-index: 2;
     box-shadow: 5px 15px 10px hsl(0, 80%, 86%);
   }
